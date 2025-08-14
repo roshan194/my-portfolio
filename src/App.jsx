@@ -57,7 +57,7 @@ const App = () => {
     {
       title: "FoodApp - Food Ordering Platform",
       description: "A responsive and dynamic food ordering web application using React.js with Redux state management. Integrated with Swiggy's API for real-time restaurant data.",
-      image: "../public/assets/food.png", // Replace with actual image path
+      image: "./assets/food.png", // Replace with actual image path
       tech: ["React.js", "Redux", "React Router", "CSS3", "JavaScript ES6+", "Swiggy API"],
       github: "https://github.com/roshan194/Food_App.git", // Replace with actual GitHub repo
       live: "https://food-app-one-bice.vercel.app/" // Replace with actual live demo
@@ -65,7 +65,7 @@ const App = () => {
     {
       title: "MeShop - E-Commerce Platform",
       description: "A comprehensive e-commerce shopping cart application with user authentication, dynamic product fetching, and integrated Razorpay payment processing.",
-      image: "../public/assets/MeShop.png", // Replace with actual image path
+      image: "./assets/MeShop.png", // Replace with actual image path
       tech: ["HTML", "CSS", "JavaScript", "FakeStoreAPI", "Razorpay", "Local Storage"],
       github: "https://github.com/roshan194/Meshop.git", // Replace with actual GitHub repo
       live: "https://tourmaline-entremet-50730b.netlify.app/" // Replace with actual live demo
@@ -73,7 +73,7 @@ const App = () => {
     {
       title: "MapMyPost - Location Service App",
       description: "A web application that retrieves user location based on IP address and displays local post offices with interactive Google Maps integration.",
-      image: "../public/assets/Post.png",
+      image: "./assets/Post.png",
       tech: ["JavaScript", "HTML", "CSS", "ipapi.co API", "Google Maps API", "PostPincode API"],
       github: "https://github.com/roshan194/PostOffice.git", // Replace with actual GitHub repo
       live: "https://post-office-ashen.vercel.app/" // Replace with actual live demo
