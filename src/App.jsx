@@ -182,7 +182,7 @@ const App = () => {
                   )
                 )}
                 <a
-                  href="https://drive.google.com/file/d/1bHU4UxiWI2ySg9GtsI2BBSe8huIPtQns/view?usp=drive_link" 
+                  href="https://drive.google.com/file/d/1dCy94IdYQAnc87vDCllT7L4pmS74TEoh/view?usp=drive_link" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="px-4 py-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg font-semibold hover:scale-105 transform transition-all duration-200 shadow-lg hover:shadow-xl"
@@ -225,7 +225,7 @@ const App = () => {
                     )
                   )}
                   <a
-                    href="https://drive.google.com/file/d/1bHU4UxiWI2ySg9GtsI2BBSe8huIPtQns/view?usp=drive_link" 
+                    href="https://drive.google.com/file/d/1dCy94IdYQAnc87vDCllT7L4pmS74TEoh/view?usp=drive_link" 
                     target="_blank"
                     rel="noopener noreferrer"
                     className="px-4 py-2 mt-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg font-semibold text-center"
