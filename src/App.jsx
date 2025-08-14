@@ -3,6 +3,10 @@ import { ChevronDown, Github, ExternalLink, Mail, Phone, MapPin, Code, Palette, 
 import foodImg from './assets/food.png';
 import meshopImg from './assets/MeShop.png';
 import postImg from './assets/Post.png';
+import noteImg from './assets/NoteTrack.png';
+import movieImg from './assets/MovieStreamer.png';
+import weatherImg from './assets/Weather.png';
+
 const App = () => {
   const [darkMode, setDarkMode] = useState(true);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -60,26 +64,50 @@ const App = () => {
     {
       title: "FoodApp - Food Ordering Platform",
       description: "A responsive and dynamic food ordering web application using React.js with Redux state management. Integrated with Swiggy's API for real-time restaurant data.",
-      image: foodImg, // Replace with actual image path
+      image: foodImg,
       tech: ["React.js", "Redux", "React Router", "CSS3", "JavaScript ES6+", "Swiggy API"],
-      github: "https://github.com/roshan194/Food_App.git", // Replace with actual GitHub repo
-      live: "https://food-app-one-bice.vercel.app/" // Replace with actual live demo
+      github: "https://github.com/roshan194/Food_App.git",
+      live: "https://food-app-one-bice.vercel.app/"
     },
     {
       title: "MeShop - E-Commerce Platform",
       description: "A comprehensive e-commerce shopping cart application with user authentication, dynamic product fetching, and integrated Razorpay payment processing.",
-      image: meshopImg, // Replace with actual image path
+      image: meshopImg,
       tech: ["HTML", "CSS", "JavaScript", "FakeStoreAPI", "Razorpay", "Local Storage"],
-      github: "https://github.com/roshan194/Meshop.git", // Replace with actual GitHub repo
-      live: "https://tourmaline-entremet-50730b.netlify.app/" // Replace with actual live demo
+      github: "https://github.com/roshan194/Meshop.git",
+      live: "https://tourmaline-entremet-50730b.netlify.app/"
     },
     {
       title: "MapMyPost - Location Service App",
       description: "A web application that retrieves user location based on IP address and displays local post offices with interactive Google Maps integration.",
       image: postImg,
       tech: ["JavaScript", "HTML", "CSS", "ipapi.co API", "Google Maps API", "PostPincode API"],
-      github: "https://github.com/roshan194/PostOffice.git", // Replace with actual GitHub repo
-      live: "https://post-office-ashen.vercel.app/" // Replace with actual live demo
+      github: "https://github.com/roshan194/PostOffice.git",
+      live: "https://post-office-ashen.vercel.app/" 
+    },
+    {
+      title: 'MovieStreamer',
+      description: 'A movie streaming web application that allows users to search and stream movies using the TVmaze API. Users can browse through a vast collection of movies, view details.',
+      tech: ['React', 'Node.js', 'Express', 'TVmaze API'],
+      image: movieImg,
+      github: 'https://github.com/roshan194/MoivelList.git',
+      live: 'https://moivel-list.vercel.app/' 
+    },
+    {
+      title: 'NoteTrack',
+      description: 'A Simplified Task and Note Management App.With an intuitive user interface, users can easily manage tasks and notes. Stay organized and on top of daily activities with this streamlined and powerful tool. Simplify task and note management with NoteTrack.',
+      tech: ['React', 'Redux', 'Firebase', 'Tailwind CSS'],
+      image: noteImg,
+      github: 'https://github.com/roshan194/NoteTrack.git',
+      live: 'https://keeper-app-fc.netlify.app/'
+    },
+    {
+      title: 'WeatherApp',
+      description: 'WeatherApp is a web application leveraging the OpenWeather MAP API. Powered by a team of data scientists and IT experts, it offers historical, current, and forecasted weather data globally. Users can access real-time weather information with light-speed APIs, making it a reliable source for weather updates.',
+      tech: ['React', 'OpenWeather API', 'CSS3'],
+      image: weatherImg,
+      github: 'https://github.com/roshan194/weather-app.git',
+      live: 'https://weather-app-gilt-eight-76.vercel.app/'
     }
   ];
 
@@ -154,7 +182,7 @@ const App = () => {
                   )
                 )}
                 <a
-                  href="https://drive.google.com/file/d/1bHU4UxiWI2ySg9GtsI2BBSe8huIPtQns/view?usp=drive_link" // replace with your Drive link
+                  href="https://drive.google.com/file/d/1bHU4UxiWI2ySg9GtsI2BBSe8huIPtQns/view?usp=drive_link" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="px-4 py-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg font-semibold hover:scale-105 transform transition-all duration-200 shadow-lg hover:shadow-xl"
@@ -197,7 +225,7 @@ const App = () => {
                     )
                   )}
                   <a
-                    href="https://drive.google.com/file/d/1bHU4UxiWI2ySg9GtsI2BBSe8huIPtQns/view?usp=drive_link" // replace with your Drive link
+                    href="https://drive.google.com/file/d/1bHU4UxiWI2ySg9GtsI2BBSe8huIPtQns/view?usp=drive_link" 
                     target="_blank"
                     rel="noopener noreferrer"
                     className="px-4 py-2 mt-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg font-semibold text-center"
