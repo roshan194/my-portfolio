@@ -113,6 +113,12 @@ const App = () => {
 
   const experiences = [
     {
+      title: "Frontend Developer Intern",
+      company: "Snackdesi",
+      period: "Oct 2025 – Present",
+      description: "Contributing to the development of user-friendly web interfaces using React.js. Collaborating with the design team to implement responsive designs and enhance user experience."
+    },
+    {
       title: "Employee Skill Development Trainee",
       company: "Zensar Technologies",
       period: "Oct 2021 – Mar 2022",
